@@ -1,0 +1,6 @@
+MODEL PERFORMANCE SUMMARY
+Random Forest  - Acc: 0.8667, AUC: 0.9205
+CNN            - Acc: 0.8333, AUC: 0.9148
+CNN-GRU (Final)- Acc: 0.7333, AUC: 0.8693
+Transformer    - Acc: 0.7333, AUC: 0.5000
+Severity Score : 3.86%
