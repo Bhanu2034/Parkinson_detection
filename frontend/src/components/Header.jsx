@@ -1,11 +1,15 @@
+import React from "react";
+
 function Header() {
     return (
-        <div className="card">
-            <h2>🧠 Parkinson’s Disease Voice Analysis</h2>
-            <p>
-                Hybrid Deep Learning System using CNN, CNN–GRU, Transformer and
-                Autoencoder-based Severity Estimation
+        <div className="text-center mb-5">
+            <h1 className="fw-bold text-primary display-6">
+                Parkinson’s Risk Assessment System
+            </h1>
+            <p className="text-muted fs-6">
+                Hybrid Deep Learning (CNN–GRU) based Voice Analysis
             </p>
+            <hr className="w-25 mx-auto" />
         </div>
     );
 }
